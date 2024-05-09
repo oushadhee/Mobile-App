@@ -16,7 +16,7 @@
         android:padding="12dp">
 
         <TextView
-            android:id="@+id/addNoteHeading"
+            android:id="@+id/addPlanHeading"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -31,7 +31,7 @@
             android:id="@+id/adddate"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_below="@id/addNoteHeading"
+            android:layout_below="@id/addPlanHeading"
             android:layout_marginTop="16dp"
             android:background="@drawable/blue_border"
             android:fontFamily="sans-serif-black"
@@ -44,11 +44,11 @@
             android:id="@+id/addmenu"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/addNoteTitle"
+            android:layout_below="@id/adddate"
             android:layout_marginStart="12dp"
-            android:layout_marginTop="150dp"
+            android:layout_marginTop="16dp"
             android:layout_marginEnd="12dp"
-            android:layout_marginBottom="300dp"
+            android:layout_marginBottom="30dp"
             android:background="@android:drawable/alert_light_frame"
             android:fontFamily="sans-serif-medium"
             android:gravity="top"
@@ -56,21 +56,7 @@
             android:padding="12dp"
             android:textSize="18sp" />
 
-        <EditText
-            android:id="@+id/addweight"
-            android:layout_width="349dp"
-            android:layout_height="71dp"
-            android:layout_below="@id/addNoteTitle"
-            android:layout_marginStart="12dp"
-            android:layout_marginTop="555dp"
-            android:layout_marginEnd="12dp"
-            android:layout_marginBottom="100dp"
-            android:background="@android:drawable/alert_light_frame"
-            android:fontFamily="sans-serif-medium"
-            android:gravity="top"
-            android:hint="Sugar Leval"
-            android:padding="12dp"
-            android:textSize="18sp" />
+
 
 
     </RelativeLayout>
